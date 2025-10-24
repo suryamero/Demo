@@ -12,9 +12,11 @@ interface Engine{
 }
 class Car implements Vehicle,Engine{
     public void start(){
+
         System.out.println("Car will start now");
     }
     public void stop(){
+
         System.out.println("Car will stop now");
     }
     public void speed(){
@@ -30,6 +32,7 @@ class Bike implements Vehicle{
     }
 
 }
+
 public class InterfaceExample {
     public static void main(String[] args) {
         Car car=new Car();
